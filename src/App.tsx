@@ -11,7 +11,8 @@ import Header from "./components/Header";
 
 export default function App() {
   return (
-         <Header />
+        <>
+    <Header />
     <div className="min-h-screen bg-white">
       <Hero />
       <HowItWorks />
@@ -22,5 +23,6 @@ export default function App() {
       <CTA />
       <Footer />
     </div>
+    </>
   );
 }
